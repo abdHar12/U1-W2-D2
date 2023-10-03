@@ -250,5 +250,6 @@ console.log(fromOneToTen);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-fromOneToTen[fromOneToTen.length - 1] = 100;
-console.log(fromOneToTen);
+let newFromOneToHun = fromOneToTen.slice();
+newFromOneToHun[newFromOneToHun.length - 1] = 100;
+console.log(newFromOneToHun);
