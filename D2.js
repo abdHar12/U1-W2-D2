@@ -250,5 +250,5 @@ console.log(fromOneToTen);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-fromOneToTen[9] = 100;
+fromOneToTen[fromOneToTen.length - 1] = 100;
 console.log(fromOneToTen);
