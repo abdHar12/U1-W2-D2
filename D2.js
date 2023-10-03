@@ -113,7 +113,7 @@ if (totalShoppingCart >= 50) {
 console.log("Esercizio 6");
 let valoreAcquisti = 100;
 let CompresoSped;
-valoreAcquisti = (valoreAcquisti / 100) * 20;
+valoreAcquisti = (valoreAcquisti / 100) * 80;
 console.log(valoreAcquisti);
 if (valoreAcquisti >= 50) {
   CompresoSped = valoreAcquisti;
