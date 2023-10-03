@@ -74,7 +74,7 @@ if (differenza >= 0) {
       console.log("Solo la differenza è uguale a 8");
     } else if (differenza !== 8 && somma === 8) {
       console.log("Solo la somma è uguale a 8");
-    } else if (differenza === 8 || somma === 8) {
+    } else if (differenza === 8 && somma === 8) {
       console.log("Sia la somma che la differenza sono uguali");
     } else {
       console.log("Ne la somma ne la differenza sono uguali a 8");
